@@ -1,5 +1,10 @@
 ## Installation
 
+```bash
+git clone <the github url>
+```
+
+
 You can install the package via composer:
 
 ```bash
