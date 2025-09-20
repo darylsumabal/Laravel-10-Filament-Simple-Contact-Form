@@ -30,7 +30,7 @@ DB_CONNECTION=sqlite
 # DB_PASSWORD=
 ```
 
-Migrate the datbase
+to apply the .env changes
 ```bash
 php artisan config:clear
 php artisan cache:clear
@@ -46,6 +46,10 @@ touch database/database.sqlite
 Migrate the datbase
 ```bash
 php artisan migrate
+```
+to run the application
+```bash
+php artisan serve
 ```
 
 
